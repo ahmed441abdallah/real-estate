@@ -10,7 +10,7 @@ const page = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         const newCountry = getUpperCase(country);
-        window.location.href = `http://localhost:3000/https://en.wikipedia.org/wiki/${newCountry}`;
+        window.location.href = `https://real-estate-x.vercel.app/https://en.wikipedia.org/wiki/${newCountry}`;
 
     }
     return (

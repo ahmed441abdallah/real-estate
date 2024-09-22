@@ -113,7 +113,7 @@ const Gallery = () => {
                                 transactions efficiently and effectively via mobile responsive
                                 platform
                             </p>
-                            <Link href='/add-listing' className="mt-8 inline-block rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-700 focus:outline-none focus:ring focus:ring-yellow-400">
+                            <Link href='/listing' className="mt-8 inline-block rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-700 focus:outline-none focus:ring focus:ring-yellow-400">
                                 Get Started Today
                             </Link>
                         </div>
