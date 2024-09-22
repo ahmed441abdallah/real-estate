@@ -2,9 +2,18 @@ import React from 'react'
 import { ragChat } from "../../lib/rag-chat"
 import { redis } from "../../lib/redis"
 import ChatWrapper from "../_components/ChatWrapper"
+
 function reconstructUrl(url) {
-    const decodedComponents = url?.map((component) => decodeURIComponent(component));
-    return decodedComponents.join("//");
+    // The first part is 'https:', so we join with a single '/' after 'https:'
+    const decodedComponents = url?.map((component, index) => {
+        if (index === 0) {
+            return decodeURIComponent(component);  // The 'https:' part
+        }
+        return decodeURIComponent(component);
+    });
+
+    // Ensure proper URL construction like 'https://en.wikipedia.org/wiki/Dubai'
+    return decodedComponents.join('/');
 }
 const page = async ({ params }) => {
     const reconstructedUrl = reconstructUrl(params.url);
