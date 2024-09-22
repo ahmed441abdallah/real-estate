@@ -1,3 +1,4 @@
+'use client';
 import React, { useRef } from 'react';
 
 const Page = () => {
@@ -11,7 +12,7 @@ const Page = () => {
         e.preventDefault();
         const newCountry = getUpperCase(countryRef.current.value);
         // Redirect to your internal route that handles the URL
-        window.location.href = `/https:/en.wikipedia.org/wiki/${newCountry}`;
+        window.location.href = `real-estate-x.vercel.app/https:/en.wikipedia.org/wiki/${newCountry}`;
     };
 
     return (
@@ -25,7 +26,7 @@ const Page = () => {
                         className='px-8 py-2 rounded-sm bg-gray-200 focus:outline-none'
                         type='text'
                         required
-                        placeholder='Enter country to get more info.'
+                        placeholder='Enter country to more info.'
                     />
                     <button type='submit' className='bg-gray-600 text-white px-4 py-1 rounded-md'>Send</button>
                 </form>
