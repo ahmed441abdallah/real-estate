@@ -12,7 +12,7 @@ const Page = () => {
         e.preventDefault();
         const newCountry = getUpperCase(countryRef.current.value);
         // Redirect to your internal route that handles the URL
-        window.location.href = `real-estate-x.vercel.app/https:/en.wikipedia.org/wiki/${newCountry}`;
+        window.location.href = `/https:/en.wikipedia.org/wiki/${newCountry}`;
     };
 
     return (
