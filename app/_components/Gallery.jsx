@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { Button } from '../../components/ui//button';
 
 const Gallery = () => {
@@ -34,10 +35,11 @@ const Gallery = () => {
                                     with this breathtaking villa, complete with private beach
                                     access and panoramic ocean views.
                                 </p>
+                                <Link href='/listing'>
+                                    <Button className=" bg-gray-600 mt-4 py-4 px-12">
+                                        Get in Touch
+                                    </Button></Link>
 
-                                <Button className=" bg-gray-600 mt-4 py-4 px-12">
-                                    Get in Touch
-                                </Button>
                             </div>
                         </div>
                     </div>
@@ -105,18 +107,15 @@ const Gallery = () => {
                             </h2>
 
                             <p className="mt-4 text-gray-600">
-                                Users can access the Egyptian Real Estate Platform from
+                                Users can access the Real Estate Platform from
                                 anywhere, at any time. It ensures that anyone can search for
                                 properties, connect with agents, and manage real estate
                                 transactions efficiently and effectively via mobile responsive
                                 platform
                             </p>
-                            <a
-                                href="#"
-                                className="mt-8 inline-block rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-700 focus:outline-none focus:ring focus:ring-yellow-400"
-                            >
+                            <Link href='/add-listing' className="mt-8 inline-block rounded bg-gray-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-gray-700 focus:outline-none focus:ring focus:ring-yellow-400">
                                 Get Started Today
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

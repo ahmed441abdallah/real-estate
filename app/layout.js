@@ -7,6 +7,7 @@ import { ClerkProvider } from "@clerk/nextjs";
 import { usePathname } from "next/navigation";
 import { LoadScript } from "@react-google-maps/api";
 const inter = Inter({ subsets: ["latin"] });
+
 export default function RootLayout({ children }) {
   const path = usePathname();
   const hideHeaderFooter = path === "/sign-in" || path == "/sign-out";
