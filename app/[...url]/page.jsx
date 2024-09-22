@@ -1,24 +1,24 @@
-import React from 'react'
-import { ragChat } from "../../lib/rag-chat"
-import { redis } from "../../lib/redis"
-import ChatWrapper from "../_components/ChatWrapper"
+import React from 'react';
+import { ragChat } from "../../lib/rag-chat";
+import { redis } from "../../lib/redis";
+import ChatWrapper from "../_components/ChatWrapper";
 
 function reconstructUrl(url) {
-    // The first part is 'https:', so we join with a single '/' after 'https:'
-    const decodedComponents = url?.map((component, index) => {
-        if (index === 0) {
-            return decodeURIComponent(component);  // The 'https:' part
-        }
-        return decodeURIComponent(component);
-    });
+    if (!url || url.length === 0) return '';
 
-    // Ensure proper URL construction like 'https://en.wikipedia.org/wiki/Dubai'
-    return decodedComponents.join('/');
+    const decodedComponents = url.map((component) => decodeURIComponent(component));
+
+    const protocol = decodedComponents[0]; // This should be 'https:'
+    const restOfUrl = decodedComponents.slice(1).join('/'); // Join the rest with '/'
+
+    return `${protocol}//${restOfUrl}`; // Combine to form the full URL
 }
+
 const page = async ({ params }) => {
     const reconstructedUrl = reconstructUrl(params.url);
     const isAlreadyIndexed = await redis.sismember("indexed-urls", reconstructedUrl);
     const sessionId = "mock-session-id";
+
     if (!isAlreadyIndexed) {
         await ragChat.context.add({
             type: "html",
@@ -31,7 +31,7 @@ const page = async ({ params }) => {
 
     return (
         <ChatWrapper sessionId={sessionId} />
-    )
-}
+    );
+};
 
 export default page;
