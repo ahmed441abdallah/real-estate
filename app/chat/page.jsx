@@ -1,8 +1,7 @@
-'use client'
-import React, { useState } from 'react';
+import React, { useRef } from 'react';
 
 const Page = () => {
-    const [country, setCountry] = useState('');
+    const countryRef = useRef(null);
 
     const getUpperCase = (str) => {
         return str.charAt(0).toUpperCase() + str.slice(1);
@@ -10,7 +9,7 @@ const Page = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        const newCountry = getUpperCase(country);
+        const newCountry = getUpperCase(countryRef.current.value);
         // Redirect to your internal route that handles the URL
         window.location.href = `/https:/en.wikipedia.org/wiki/${newCountry}`;
     };
@@ -22,8 +21,7 @@ const Page = () => {
             <section className='mt-8'>
                 <form onSubmit={handleSubmit} className='flex items-center justify-center gap-4'>
                     <input
-                        value={country}
-                        onChange={(e) => setCountry(e.target.value)}
+                        ref={countryRef}
                         className='px-8 py-2 rounded-sm bg-gray-200 focus:outline-none'
                         type='text'
                         required

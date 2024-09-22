@@ -5,12 +5,9 @@ import ChatWrapper from "../_components/ChatWrapper";
 
 function reconstructUrl(url) {
     if (!url || url.length === 0) return '';
-
     const decodedComponents = url.map((component) => decodeURIComponent(component));
-
     const protocol = decodedComponents[0]; // This should be 'https:'
     const restOfUrl = decodedComponents.slice(1).join('/'); // Join the rest with '/'
-
     return `${protocol}//${restOfUrl}`; // Combine to form the full URL
 }
 
