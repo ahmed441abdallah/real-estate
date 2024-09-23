@@ -48,6 +48,9 @@ you can ceate and view and edit , delete listing
 ### Responsive Design
 Built with Tailwind CSS for a mobile-first approach, ensuring an optimal user experience across devices. The app adapts seamlessly to different screen sizes, making it easy to navigate on desktops, tablets, and smartphones.
 ![responsive (1)](https://github.com/user-attachments/assets/ec5f72b1-187f-4bc0-920d-033b65574b85)
+### ChatBot
+Interact with an AI chatbot for instant information about places. Users can ask questions and receive real-time responses, making it easier to gather information about properties and locations.
+![Localhost 3000 Https  En](https://github.com/user-attachments/assets/bff7bb47-0c98-4a37-be31-e8bd97c424e3)
 
 
 
