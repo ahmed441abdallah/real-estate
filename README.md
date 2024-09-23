@@ -45,6 +45,9 @@ Features an auto-complete search function that predicts user input, making it qu
 you can ceate and view and edit , delete listing 
 
 ![Real-Estate-X](https://github.com/user-attachments/assets/55c25554-f063-4130-99bc-de9c7262388a)
+### Responsive Design
+Built with Tailwind CSS for a mobile-first approach, ensuring an optimal user experience across devices. The app adapts seamlessly to different screen sizes, making it easy to navigate on desktops, tablets, and smartphones.
+![responsive (1)](https://github.com/user-attachments/assets/ec5f72b1-187f-4bc0-920d-033b65574b85)
 
 
 
