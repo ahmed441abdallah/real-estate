@@ -33,4 +33,4 @@ Welcome to our Real Estate App, a comprehensive platform designed to simplify th
 
 ### User Authentication
 Easily create and manage your account with secure login and signup processes. 
-![User Authentication GIF](![Uploading Real-Estate-X.Vercel.AppSign-In-Brave2024-09-2303-23-18-ezgif.com-video-to-gif-converter.gif…]())
+![Uploading Real-Estate-X.Vercel.AppSign-In-Brave2024-09-2303-23-18-ezgif.com-video-to-gif-converter.gif…]()
