@@ -31,7 +31,7 @@ Welcome to our Real Estate App, a comprehensive platform designed to simplify th
 - **Database**: Supabase
 - **Image Storage**: Supabase storage
 
-  ## Features description
+## Features description
 
 ### User Authentication
 Easily create and manage your account with secure login and signup processes. 
