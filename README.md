@@ -27,4 +27,10 @@ Welcome to our Real Estate App, a comprehensive platform designed to simplify th
 - **Routing**: react-router-dom (or Next.js built-in routing)
 - **Authentication**: Clerk
 - **Database**: Supabase
-- **Image Storage**: Supabase storage 
+- **Image Storage**: Supabase storage
+
+  ## Features description
+
+### User Authentication
+Easily create and manage your account with secure login and signup processes. 
+![User Authentication GIF](![Uploading Real-Estate-X.Vercel.AppSign-In-Brave2024-09-2303-23-18-ezgif.com-video-to-gif-converter.gif…]())
