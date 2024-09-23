@@ -39,6 +39,12 @@ Easily create and manage your account with secure login and signup processes.
 A powerful search feature that enables users to quickly find listings based on their criteria. Users can filter results to find their ideal properties
 ![Real-Estate-X Vercel AppListing-Personal-MicrosoftEdge2024-09-2303-42-11-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ccf30855-f7a2-422c-a503-faf40487d2d7)
 
+### Google Map API Search Auto Complete Search
+Integrates Google Maps API to allow users to search for properties based on location. Users can view listings on an interactive map, making it easier to find properties in their desired areas.
+Features an auto-complete search function that predicts user input, making it quick and easy to find listings. As users type, suggestions are provided to enhance their search experience.
+https://github.com/user-attachments/assets/8d4abed3-bd35-45bb-b9b6-025b818b50b5
+
+
 
 
 
