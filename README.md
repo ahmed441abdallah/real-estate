@@ -43,8 +43,6 @@ Features an auto-complete search function that predicts user input, making it qu
 ### Crud Opreation for listing 
 you can ceate and view and edit , delete listing 
 
-![Real-Estate-X Vercel AppView-Listing11-Brave2024-09-2304-58-50-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c9f4a2a1-3c6e-4750-87e9-ba6967ffc072)
-
 ![Real-Estate-X](https://github.com/user-attachments/assets/55c25554-f063-4130-99bc-de9c7262388a)
 
 
