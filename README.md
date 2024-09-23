@@ -34,3 +34,11 @@ Welcome to our Real Estate App, a comprehensive platform designed to simplify th
 ### User Authentication
 Easily create and manage your account with secure login and signup processes. 
 ![Real-Estate-X Vercel AppSign-In-Brave2024-09-2303-23-18-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/afeae581-e2f2-432f-a602-9d79d335b01c)
+
+### Real Estate Search
+A powerful search feature that enables users to quickly find listings based on their criteria. Users can filter results to find their ideal properties effortlessly.
+![Real-Estate-X Vercel AppListing-Personal-MicrosoftEdge2024-09-2303-42-11-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/ccf30855-f7a2-422c-a503-faf40487d2d7)
+
+
+
+
