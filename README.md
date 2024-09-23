@@ -51,7 +51,10 @@ Built with Tailwind CSS for a mobile-first approach, ensuring an optimal user ex
 ### ChatBot
 Interact with an AI chatbot for instant information about places. Users can ask questions and receive real-time responses, making it easier to gather information about properties and locations.
 ![Localhost 3000 Https  En](https://github.com/user-attachments/assets/bff7bb47-0c98-4a37-be31-e8bd97c424e3)
-
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ahmed441abdallah/real-state
 
 
 
