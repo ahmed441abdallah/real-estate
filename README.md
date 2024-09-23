@@ -4,7 +4,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Features description](#Featuresdescription)
+- [Features description](#Featuresde-scription)
 - [Usage](#usage)
 
 ## Introduction
