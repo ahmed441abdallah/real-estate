@@ -40,6 +40,12 @@ Integrates Google Maps API to allow users to search for properties based on loca
 Features an auto-complete search function that predicts user input, making it quick and easy to find listings. As users type, suggestions are provided to enhance their search experience.
 ![Untitled design (1)](https://github.com/user-attachments/assets/6fc25019-e5be-4b34-805e-7d6b1729c7b0)
 
+### Crud Opreation for listing 
+you can ceate and view and edit , delete listing 
+
+![Real-Estate-X Vercel AppView-Listing11-Brave2024-09-2304-58-50-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c9f4a2a1-3c6e-4750-87e9-ba6967ffc072)
+
+
 
 
 
