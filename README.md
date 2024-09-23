@@ -33,7 +33,8 @@ Welcome to our Real Estate App, a comprehensive platform designed to simplify th
 
 ### User Authentication
 Easily create and manage your account with secure login and signup processes. 
-![Real-Estate-X Vercel AppSign-In-Brave2024-09-2303-23-18-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/afeae581-e2f2-432f-a602-9d79d335b01c)
+![Real-Estate-X (1)](https://github.com/user-attachments/assets/2907d4ff-de8c-41e5-9f26-4ed214915034)
+
 
 ### Google Map API Search Auto Complete Search
 Integrates Google Maps API to allow users to search for properties based on location. Users can view listings on an interactive map, making it easier to find properties in their desired areas.
