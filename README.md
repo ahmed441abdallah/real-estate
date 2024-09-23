@@ -4,8 +4,7 @@
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Features description](#Featuresde-scription)
-- [Usage](#usage)
+- [Features Description](#Features-description)
 - [Installation](#installation)
 
 
@@ -31,7 +30,7 @@ Welcome to our Real Estate App, a comprehensive platform designed to simplify th
 - **Database**: Supabase
 - **Image Storage**: Supabase storage
 
-## Features description
+## Features Description
 
 ### User Authentication
 Easily create and manage your account with secure login and signup processes. 
