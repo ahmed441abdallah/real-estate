@@ -6,6 +6,8 @@
 - [Technologies Used](#technologies-used)
 - [Features description](#Featuresde-scription)
 - [Usage](#usage)
+- [Installation](#installation)
+
 
 ## Introduction
 Welcome to our Real Estate App, a comprehensive platform designed to simplify the process of buying, selling, and managing real estate listings. Whether you're a property owner looking to showcase your listings or a potential buyer seeking your dream home, our app offers a user-friendly interface that makes navigation effortless. With features like secure user authentication, dynamic routing for easy access to property details, and responsive design for seamless use on any device, we aim to provide an efficient and enjoyable experience. 
